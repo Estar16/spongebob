@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: yellow;
+}
+
+main {
+    width: fit-content;
+    margin: 4rem auto 0 auto;
+
+}
+
+h1 {
+    color: rgb(0, 47, 255);
+    font-size:5rem ;
+    text-align: center;
+}
+
+h3{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 0.5rem ;
+}
+
+input{
+    width: 20rem;
+    height: 2rem;
+    margin: auto;
+    display: block;
+}
+
+.b{
+animation:star 2s;
+}
+
+@keyframes star {
+    0%{
+        transform: translateX(-100vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.r{
+    animation:square 2s;
+}
+
+@keyframes square{
+    0%{
+        transform:translateX(100vw)
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.e{
+    animation: star 2s;
+}
+
+.a{
+    animation: square 2s;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+button{
+    width: 6rem;
+    height: 2rem ;
+    margin: auto;
+    display: block;
+    color: white;
+    background-color: blue;
+    animation: circle 5s;
+}
+
+@keyframes circle{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+button:hover{
+    background-color: black;
+}
